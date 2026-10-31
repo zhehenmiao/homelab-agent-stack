@@ -1,0 +1,20 @@
+# 凭证与敏感信息 —— 永远不要提交
+.env
+*.env
+*.key
+*.pem
+secrets/
+*.log
+logs/
+
+# 运行时数据
+*.pkl
+*.npy
+*.csv
+data/
+cache/
+
+# 系统
+.DS_Store
+__pycache__/
+*.pyc
